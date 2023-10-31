@@ -15,6 +15,11 @@ export function Details() {
                 <Content>
                     <ButtonText title="Excluir nota"/>
 
+                    <h1> Introdução ao React</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Mollitia similique ipsam vitae ea quo expedita eaque ab dicta consectetur vel, accusamus quis, veniam rem. 
+                        Cumque consectetur tenetur magni porro inventore.</p>
+
                     <Section title="Links Úteis">
                         <Links>
                             <li><a href='#'>https://www,.rocketseat.com.br</a></li>
@@ -26,8 +31,11 @@ export function Details() {
                         <Tag title="express"/>
                         <Tag title="node"/>
                     </Section>
+
+                    <Button title="Voltar"></Button>
                 </Content>
             </main>
         </Container>
     )
 }
+
