@@ -32,7 +32,11 @@ export const Brand = styled.div`
 
     > h1 {
         font-size: 24px;
+<<<<<<< HEAD
         color: ${({ theme }) => theme.COLORS.ORANGE};
+=======
+        color: ${({ theme }) => theme.COLORS.ORANGE};;
+>>>>>>> b7c8eafb182716b1a36dc62932a0cd717637f502
     }
 
 `;
@@ -51,13 +55,19 @@ export const Menu = styled.ul`
 
 export const Search = styled.div`
     grid-area: search;
+<<<<<<< HEAD
     padding: 64px 64px 0;
+=======
+>>>>>>> b7c8eafb182716b1a36dc62932a0cd717637f502
 `;
 
 export const Content = styled.div`
     grid-area: content;
+<<<<<<< HEAD
     padding: 0 64px;
     overflow-y: scroll ;
+=======
+>>>>>>> b7c8eafb182716b1a36dc62932a0cd717637f502
 `;
 
 export const NewNote = styled.button`
